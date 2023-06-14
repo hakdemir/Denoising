@@ -2,21 +2,22 @@
 
 <img src="figures\denoised.png">
 
+<hr />
+
+Authors: <br />
 [Lemar Abdi](https://nl.linkedin.com/in/lemar-abdi-30816317a),
-[Halil Akdemir](linkedin.com/in/hakdemir),
+[Halil Akdemir](https://linkedin.com/in/hakdemir),
 [Thodoris Chronopoulos]()
 
 [Final Report](report\report.pdf)
 
 <hr />
 
-> **Abstract:**  This report discusses the development of a deep learning algorithm for real-time denoising of low-dose X-ray images in C-arms, which will be translated into a start-up.
-The goal is to reduce radiation exposure for patients and especially medical professionals while maintaining image quality and diagnostic information.
-A methodology is proposed that involves a literature review, market research, a proof-of-concept phase using maturity steps, testing on real scans, and verification and validation of the technology.
-The report also discusses various deep learning-based denoising techniques such as CNNs, autoencoders, U-Net architecture and transformers.
-We have chosen to use a NAFNet (Nonlinear Activation Free Network) baseline for the denoising task. Data acquisition, curation, storage and management as well as the business case for thee proposed start-up are discussed.
-A back-of-the-envelope calculation is performed and shows significant market size and revenue for the start-up. 
-
+> **Abstract:**  This report discusses the development of a deep learning algorithm for real-time denoising of low-dose X-ray images in C-arms, which will be translated into a start-up. The goal is to reduce radiation exposure for patients and especially medical professionals while maintaining image quality and diagnostic information. 
+    A methodology is proposed that involves a literature review, market research, a proof-of-concept phase using maturity steps, testing on real scans, and verification and validation of the technology. Data acquisition, curation, storage and management as well as the business case for thee proposed start-up are discussed. A back-of-the-envelope calculation is performed and shows significant market size and revenue for the start-up. We have chosen to use a  KBNet (Kernel Basis Network
+for Image Restoration) for the denoising task. Experimental results using a deep learning model with pre-trained weights have shown promising outcomes, with untapped potential for further improvement through transfer learning techniques. The model evaluated on the test dataset (VinDr-
+SpineXR dataset) gives a PSNR (Peak signal-to-noise ratio) of 82.25 dB and a MSE score of 0.0004. Furthermore, stacking grey-scale images along the input
+channel dimension utilized temporal information and improves the model performance on video. 
 <hr />
 
 ## Dicom conversion
