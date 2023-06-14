@@ -9,7 +9,7 @@ Authors: <br />
 [Halil Akdemir](https://linkedin.com/in/hakdemir),
 [Thodoris Chronopoulos]()
 
-[Final Report](report\report.pdf)
+[Final Report](report/report.pdf)
 
 <hr />
 
