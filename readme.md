@@ -7,7 +7,7 @@
 Authors: <br />
 [Lemar Abdi](https://nl.linkedin.com/in/lemar-abdi-30816317a),
 [Halil Akdemir](https://linkedin.com/in/hakdemir),
-[Thodoris Chronopoulos]()
+[Thodoris Chronopoulos](https://www.linkedin.com/in/thodoris-chronopoulos-723694244/)
 
 [Final Report](report/report.pdf)
 
@@ -52,9 +52,13 @@ The first shown video is composed using the original images. The second video is
 ## Testing performance
 In the notebook [testing.ipynb](testing.ipynb) we show how to test the performance of the denoising algorithm. We use the PSNR (Peak Signal-to-Noise Ratio) and MSE (Mean Squared Error) to test the performance of the denoising algorithm. We test on a test set of 250 images. The results are as follows:
 
-| MSE    | PSNR    |
-|--------|---------|
-| 0.0004 | 82.2514 |
+| Dataset       	| PSNR  	|
+|---------------	|-------	|
+| MNIST         	| 77.93 	|
+| VinDr-SpineXR 	| 82.25 	|
+| SpineWeb      	| 81.69 	|
+
+<img src="figures\violin.png">
 
 <hr />
 
